@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         etGPA.setText(gpa.toString());
         rgGender.check(gender);
 
+        //test new line
 
         Toast toast = Toast.makeText(getApplicationContext(), "Name: " + name + "\nGPA: " + gpa + "\nGender: " + gender, Toast.LENGTH_LONG);
         toast.show();
